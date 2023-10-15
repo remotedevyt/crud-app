@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;700&display=swap');
+body{
+    background: #222;
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background: linear-gradient(45deg,#d5d5d5,#e5e5e5);
+    border-radius: 10px;
+    padding: 10px;
+    width: 75vw;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toolbar{
+    display: flex;
+    justify-content: flex-end;
+}
+.ml2{
+    margin-left: 5px;
+}
+.mr2{
+    margin-right: 5px;
+}
+.btn {
+    border: 1px solid #888;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(56, 98, 119);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover{
+    background-color: #222;
+    color: #ccc;
+}
+.btn span{
+    margin-left: 5px;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td,
+.table th {
+    border: 1px solid #aaa;
+    padding: 8px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #555555;
+    color: rgb(186, 186, 186);
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.form label{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form input{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 30px;
+}
+.form textarea{
+    width: 100%;
+    margin-top: 10px;
+}
